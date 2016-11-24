@@ -1,13 +1,18 @@
-#r "node_modules/fable-compiler/bin/Fable.Core.dll"
-#r "node_modules/fable-import/Fable.Import.dll"
+#r "node_modules/fable-core/Fable.Core.dll"
 
-open Fable.Core
 open Fable.Core.JsInterop
-open Fable.Import
+open Fable.Import.Browser
 
-type Aaa =
-    | A
-    | B of int
+let aaa =
+    createObj [
+        "a" ==> 123
+        "b" ==> "abcdef"
+        "c" ==> createObj [
+            "d" ==> 456
+            "e" ==> "ghijkl"
+        ]
+]
 
-let aaa = A
+let bbb = aaa
+
 

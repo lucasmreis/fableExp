@@ -795,6 +795,10 @@ fable-compiler@^0.7.8:
     rollup-plugin-node-resolve "^2.0.0"
     semver "^5.3.0"
 
+fable-core@^0.7.8:
+  version "0.7.8"
+  resolved "https://registry.yarnpkg.com/fable-core/-/fable-core-0.7.8.tgz#167ef6bdcc196da4bab939f0cd25af5e896572f5"
+
 fable-import@0.0.3:
   version "0.0.3"
   resolved "http://registry.npmjs.org/fable-import/-/fable-import-0.0.3.tgz#4de2a9f6901ce974c173b2098d2d3f3b714ada90"
